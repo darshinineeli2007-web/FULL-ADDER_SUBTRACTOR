@@ -1,0 +1,11 @@
+|fulladdandsub
+A => Sum.IN1
+A => Cout.IN1
+B => B_xor.IN0
+Mode => B_xor.IN1
+Mode => Sum.IN1
+Mode => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
